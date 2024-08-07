@@ -30,8 +30,8 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      <main style={{ width: "100vw", height: 400, backgroundColor: "#F25A2C" }}>
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );
