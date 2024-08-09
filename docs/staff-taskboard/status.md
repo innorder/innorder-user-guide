@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# Status
+# How It's Organized
 
 All orders/requests will be shown in different colors step by step
 
