@@ -2,10 +2,10 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
-
+import guestImg from "@site/static/img/logo.svg";
 import styles from "./index.module.css";
+console.log("guest", guestImg);
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -29,10 +29,8 @@ export default function Home(): JSX.Element {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <HomepageHeader />
-      <main style={{ width: "100vw", height: 400, backgroundColor: "#F25A2C" }}>
-        {/* <HomepageFeatures /> */}
-      </main>
+      <img src={require("@site/static/img/guestservice.png").default} />
+      <main style={{ width: "100%", backgroundColor: "#F25A2C" }}></main>
     </Layout>
   );
 }
