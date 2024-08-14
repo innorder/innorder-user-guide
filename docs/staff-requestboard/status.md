@@ -4,7 +4,7 @@ sidebar_position: 0
 
 # Request Status
 
-See how request statuses are color-coded.
+See how requests are color-coded by status.
 
 <h6 style={{backgroundColor:"orange", width:120}}>Pending - Orange</h6> Waiting for staff acceptance.
 

@@ -1,8 +1,0 @@
-{
-  "label": "Staff Task Board",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "The Task Board is where you manage guest requests. It shows all requests and their statuses, helping you track and complete tasks easily."
-  }
-}
