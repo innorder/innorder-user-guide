@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # More Options
 
-Access language settings, filters, history, and room service menu item availability.
+Access language settings, filters, history, and adjust menu item availability.
 
 **Change Language:** Click the language selector on the top right to change the language.
 
