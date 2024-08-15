@@ -21,7 +21,7 @@ Manage requests by accepting, completing, or voiding them.
     src={acceptRequest}
     alt="accepting a request"
   />
-  <p style={{ marginTop: '10px', fontSize: '14px', color: '#555' }}>Accepting a request</p>
+  <p style={{ marginTop: '10px', fontSize: '14px', color: '#555' }}>Accept request</p>
 </div>
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '20px', marginBottom: '20px' }}>
@@ -47,9 +47,9 @@ Manage requests by accepting, completing, or voiding them.
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '20px', marginBottom: '20px' }}>
   <img
     src={voidRequest1}
-    alt="voiding a request"
+    alt="void request"
   />
-  <p style={{ marginTop: '10px', fontSize: '14px', color: '#555' }}>Void request</p>
+  <p style={{ marginTop: '10px', fontSize: '14px', color: '#555' }}>Void request by clicking the trash icon</p>
 </div>
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '20px', marginBottom: '20px' }}>
