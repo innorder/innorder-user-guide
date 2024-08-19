@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Housekeeping/Maintenance
+# Housekeeping
 
 Housekeeping and maintenance have the same layout as Room Service, there is one difference which is **“Preferred Time”**, if enabled, your guest will be able to schedule the specific time of their request.
 

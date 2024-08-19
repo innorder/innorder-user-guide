@@ -2,128 +2,56 @@
 sidebar_position: 0
 ---
 
-import roomserviceMain from "../../../static/admin/rs/roomservice-main.jpeg"
-import timebase from "../../../static/admin/rs/timebase.jpeg"
-import acceptance from "../../../static/admin/rs/acceptance.jpeg"
-import cancel from "../../../static/admin/rs/cancel.jpeg"
-import eta from "../../../static/admin/rs/eta.jpeg"
-import category from "../../../static/admin/rs/category1.jpeg"
-import cfcategory from "../../../static/admin/rs/cfcategory.jpeg"
-import items from "../../../static/admin/rs/items.jpeg"
-import options from "../../../static/admin/rs/options.jpeg"
-
 # Room Service
 
-<img
-src={roomserviceMain}
-alt="Example banner"
-style={{ marginLeft: 100,marginBottom:50 }}
-/>
+## Settings
 
-**1. Room Service:** toggle the button to enable/disable service. If disabled, your guests will not see Room Service when scanned.
+**Enable/Disable Service:** Toggle Room Service on/off. If off, guests won’t see it when scanning the QR code.
 
-**2.Time-Based Availability:** If enabled, your guests can order at the time you set.
+**Time-Based Availability:** Set specific times for when guests can place orders. When outside the available time range, it will show as “unavailable” to guests.
 
-The example below shows guests can order/request during this specific time.
+**Message to Guest:** Enter a custom message for guests.
 
-<img
-src={timebase}
-alt="Example banner"
-style={{ width:300, marginLeft: 100,marginBottom:50 }}
-/>
+**User Acceptance Checkbox:** Require guests to agree to “I understand orders are final and cannot be canceled once confirmed” before ordering.
 
-**3. User Acceptance Checkbox:** To check that a guest understands that orders cannot be canceled once confirmed (the message can be customized).
+**Allow Pending Status Cancellations:** Let guests cancel pending orders if staff have not accepted it yet.
 
-<img
-src={acceptance}
-alt="Example banner"
-style={{ width:300, marginLeft: 100,marginBottom:50 }}
-/>
+**ETA:** Provide guests with an estimated time of order completion. Staff must input an ETA when accepting an order.
 
-**4. Allow Pending Status Cancellations:**
+**Service Charge & Tax:** Enter applicable percentages.
 
-<img
-src={cancel}
-alt="Example banner"
-style={{ width:300, marginLeft: 100,marginBottom:50 }}
-/>
+**Rounding Rules:** Set any rounding rules if needed.
 
-**5. ETA:** Enable this to let your guests know when their request/order will be approximately completed.
+**Void Reason:** Staff must select a void reason when voiding an item. Pre-created reasons include Out of Stock, Kitchen Error, Customer Error. You can add, edit, or delete reasons.
 
-<img
-src={eta}
-alt="Example banner"
-style={{ width:300, marginLeft: 100,marginBottom:50 }}
-/>
+**Payment Method:** Guests choose a payment method (e.g., bill to room, cash). Add, edit, or delete methods here.
 
-**Categories:** to group your menu items together
+## Creating & Editing the Menu
 
-- If you want to create a new category > fill in details > update
-- If you want to edit an existing category > edit > update
+**Categories:** Organize menu items by creating categories. Use “+ Create Category” to add new ones. Enable time-based availability if needed (e.g., Breakfast available from 7 AM to 10 AM).
 
-<img
-src={category}
-alt="Example banner"
-style={{  marginLeft: 50,marginBottom:50 }}
-/>
+**Items:** Add menu items within categories. Use “+ Create Item” to upload an image, name the item, set a price, and optionally add a description. Add options as needed.
 
-Note: Each category can set the Time-Based Availability as well
-Go to **Room Service** > **Categories** > edit the category you want to set the time > put the time > **Update**
+**Select Type:** Choose between Food or Beverage for report categorization.
 
-For the category with the available time set, your guests will see grayed-out items like the example below:
+## Options
 
-- <img
-  src={cfcategory}
-  alt="Example banner"
-  style={{ width:300, marginLeft: 100,marginBottom:50 }}
-  />
+Allow guests to customize menu items by creating options.
 
-**Items:** represent individual dishes, drinks or other things you offer on your menu
-If you want to create a new category > fill in details > update
-If you want to edit an existing category > edit > update
+**Create Option:** Name the option and decide if it's required.
 
-<img
-src={category}
-alt="Example banner"
-style={{  marginBottom:50 }}
-/>
+**Min/Max Choices:** Set the range of choices guests can select. For example, if you set Min # to 1 and Max # to 3, guests must choose at least one option and can choose up to three.
 
-**Options:** to allow your customer to customize a menu item with Choices they want
+**Choices:** Name each choice, set prices, or mark as free.
 
-- Create an option
-- Edit/Delete an option
+**Apply to Menu Items:** Select applicable items for these options.
 
-<img
-src={options}
-alt="Example banner"
-style={{ width:500, marginBottom:50 ,margin:"auto"}}
-/>
+## Upsell
 
-If enabled **“Required”**, you can type Min and Max number that your guest can choose in that option. If disabled, it means your guests can choose choices as many as they want.
+**Upsell on Items:** Create upsell categories (e.g., “Thirsty? 🍹”) and add items. Then apply this upsell to specific menu items.
 
-Enable **“Free”** if no extra charge for the choice.
+**Upsell at Checkout:** Toggle on to display top-selling or customized items at checkout.
 
-**Apply to Menu Item(s):** you can select any menu items that you want to show the option you’re creating.
+## Translations
 
-**Translations:** All categories, items, and options you created are separated into groups, allowing you to check the languages in sequence conveniently. All are automatically translated.
-
-Note: If not accurate, you can edit every word here by clicking a word you want to change, and then click the Check button to update.
-
-**Upsell**
-Upsell boosts the average order value and increases overall F&B revenue
-
-1. Create an upsell category such as:
-
-   - Thirsty? 🍹
-   - Something sweet? 🍦
-   - Add a side dish?
-   - Favorites 😋
-   - Starters 🥗
-
-2. Add items to the upsell category
-
-3. Sort order (optional)
-
-4. Apply the upsell to specific menu items
-
-You can enable **Upsell at Checkout**, then can either choose Top selling items or customize items yourselves:
+**Translations:** Menu entries will be automatically translated to other languages enabled in your settings. Double-check accuracy, edit as needed, or sync to auto-translate again.
