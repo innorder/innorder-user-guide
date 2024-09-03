@@ -6,8 +6,7 @@ import enableDisableRS from "@site/static/admin/rs/enable-disable-rs.png"
 import userAcceptance from "@site/static/admin/rs/user-acceptance-checkbox.png"
 import pendingCancellations from "@site/static/admin/rs/pending-cancellations.png"
 import eta from "@site/static/admin/rs/eta.png"
-import createCategory1 from "@site/static/admin/rs/create-category1.png"
-import createCategory2 from "@site/static/admin/rs/create-category2.png"
+import timeCategory from "@site/static/admin/rs/time-based-category.png"
 import selectType from "@site/static/admin/rs/select-type.png"
 import minMaxChoice from "@site/static/admin/rs/min-max-choice.png"
 import applyOption from "@site/static/admin/rs/apply-option.png"
@@ -77,15 +76,8 @@ import editTranslation from "@site/static/admin/rs/edit-translation.png"
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '20px', marginBottom: '20px' }}>
   <img
-    src={createCategory1}
-    alt="how to create a category"
-  />
-</div>
-
-<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '20px', marginBottom: '20px' }}>
-  <img
-    src={createCategory2}
-    alt="how to create a category"
+    src={timeCategory}
+    alt="a category with time-based settings"
   />
 </div>
 
